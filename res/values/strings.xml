@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">배고픈 충대생</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pizza_1">Pizza_1</string>
+    <string name="title_activity_pizza_4">Pizza_4</string>
+    <string name="title_activity_pizza_5">Pizza_5</string>
+    <string name="title_activity_china_4">China_4</string>
+    <string name="title_activity_china_5">China_5</string>
+    <string name="title_activity_china_6">China_6</string>
+    <string name="title_activity_china_7">China_7</string>
+    <string name="title_activity_china_8">China_8</string>
+    <string name="title_activity_china_9">China_9</string>
+    <string name="title_activity_japan_2">Japan_2</string>
+    <string name="title_activity_japan_3">Japan_3</string>
+    <string name="title_activity_japan_4">Japan_4</string>
+    <string name="title_activity_japan_5">Japan_5</string>
+    <string name="title_activity_snack_2">Snack_2</string>
+
+</resources>

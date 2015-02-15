@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.hungrystudent2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SuperPizza"
+            android:label="SuperPizza" >
+        </activity>
+        <activity
+            android:name=".SuperChicken"
+            android:label="SuperChicken" >
+        </activity>
+        <activity
+            android:name=".SuperChina"
+            android:label="SuperChina" >
+        </activity>
+        <activity
+            android:name=".SuperKorean"
+            android:label="SuperKorean" >
+        </activity>
+        <activity
+            android:name=".SuperFastFood"
+            android:label="SuperFastFood" >
+        </activity>
+        <activity
+            android:name=".SuperJapan"
+            android:label="SuperJapan" >
+        </activity>
+        <activity
+            android:name=".SuperSnack"
+            android:label="SuperSnack" >
+        </activity>
+        <activity
+            android:name=".SuperPigFeet"
+            android:label="SuperPigFeet" >
+        </activity>
+        <activity
+            android:name=".Pizza1_pizzamyungga"
+            android:label="Pizza1_pizzamyungga" >
+        </activity>
+        <activity
+            android:name=".Pizza_2"
+            android:label="Pizza_2" >
+        </activity>
+        <activity
+            android:name=".Pizza_3"
+            android:label="Pizza_3" >
+        </activity>
+        <activity
+            android:name=".Chicken_1"
+            android:label="Chicken_1" >
+        </activity>
+        <activity
+            android:name=".Chicken_2"
+            android:label="Chicken_2" >
+        </activity>
+        <activity
+            android:name=".Chicken_3"
+            android:label="Chicken_3" >
+        </activity>
+        <activity
+            android:name=".Chicken_4"
+            android:label="Chicken_4" >
+        </activity>
+        <activity
+            android:name=".Chicken_5"
+            android:label="Chicken_5" >
+        </activity>
+        <activity
+            android:name=".Chicken_6"
+            android:label="Chicken_6" >
+        </activity>
+        <activity
+            android:name=".Chicken_7"
+            android:label="Chicken_7" >
+        </activity>
+        <activity
+            android:name=".Chicken_8"
+            android:label="Chicken_8" >
+        </activity>
+        <activity
+            android:name=".Chicken_9"
+            android:label="Chicken_9" >
+        </activity>
+        <activity
+            android:name=".Chicken_10"
+            android:label="Chicken_10" >
+        </activity>
+        <activity
+            android:name=".Chicken_11"
+            android:label="Chicken_11" >
+        </activity>
+        <activity
+            android:name=".Chicken_12"
+            android:label="Chicken_12" >
+        </activity>
+        <activity
+            android:name=".Chicken_13"
+            android:label="Chicken_13" >
+        </activity>
+        <activity
+            android:name=".Chicken_14"
+            android:label="Chicken_14" >
+        </activity>
+        <activity
+            android:name=".Chicken_15"
+            android:label="Chicken_15" >
+        </activity>
+        <activity
+            android:name=".Chicken_16"
+            android:label="Chicken_16" >
+        </activity>
+        <activity
+            android:name=".Chicken_17"
+            android:label="Chicken_17" >
+        </activity>
+        <activity
+            android:name=".Chicken_18"
+            android:label="Chicken_18" >
+        </activity>
+        <activity
+            android:name=".China_1"
+            android:label="China_1" >
+        </activity>
+        <activity
+            android:name=".China_2"
+            android:label="China_2" >
+        </activity>
+        <activity
+            android:name=".China_3"
+            android:label="China_3" >
+        </activity>
+        <activity
+            android:name=".Korean_1"
+            android:label="Korean_1" >
+        </activity>
+        <activity
+            android:name=".Korean_2"
+            android:label="Korean_2" >
+        </activity>
+        <activity
+            android:name=".Korean_3"
+            android:label="Korean_3" >
+        </activity>
+        <activity
+            android:name=".Fastfood_1"
+            android:label="Fastfood_1" >
+        </activity>
+        <activity
+            android:name=".Fastfood_2"
+            android:label="Fastfood_2" >
+        </activity>
+        <activity
+            android:name=".Japan_1"
+            android:label="Japan_1" >
+        </activity>
+        <activity
+            android:name=".Snack_1"
+            android:label="Snack_1" >
+        </activity>
+        <activity
+            android:name=".Pigfeet_1"
+            android:label="Pigfeet_1" >
+        </activity>
+        <activity
+            android:name=".Pizza_1"
+            android:label="@string/title_activity_pizza_1" >
+        </activity>
+        <activity
+            android:name=".Pizza_4"
+            android:label="@string/title_activity_pizza_4" >
+        </activity>
+        <activity
+            android:name=".Pizza_5"
+            android:label="@string/title_activity_pizza_5" >
+        </activity>
+        <activity
+            android:name=".China_4"
+            android:label="@string/title_activity_china_4" >
+        </activity>
+        <activity
+            android:name=".China_5"
+            android:label="@string/title_activity_china_5" >
+        </activity>
+        <activity
+            android:name=".China_6"
+            android:label="@string/title_activity_china_6" >
+        </activity>
+        <activity
+            android:name=".China_7"
+            android:label="@string/title_activity_china_7" >
+        </activity>
+        <activity
+            android:name=".China_8"
+            android:label="@string/title_activity_china_8" >
+        </activity>
+        <activity
+            android:name=".China_9"
+            android:label="@string/title_activity_china_9" >
+        </activity>
+        <activity
+            android:name=".Japan_2"
+            android:label="@string/title_activity_japan_2" >
+        </activity>
+        <activity
+            android:name=".Japan_3"
+            android:label="@string/title_activity_japan_3" >
+        </activity>
+        <activity
+            android:name=".Japan_4"
+            android:label="@string/title_activity_japan_4" >
+        </activity>
+        <activity
+            android:name=".Japan_5"
+            android:label="@string/title_activity_japan_5" >
+        </activity>
+        <activity
+            android:name=".Snack_2"
+            android:label="@string/title_activity_snack_2" >
+        </activity>
+    </application>
+
+</manifest>

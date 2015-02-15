@@ -1,0 +1,47 @@
+package example.hungrystudent2;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+public class SuperKorean extends Activity{
+	private String[] Names = { // ««¿⁄¡˝ ¿Ã∏ß ≥÷¿∏∏È µ 
+			"±Ëπ‰≥™∂Û(∫¿∏Ì¡°)","24Ω√π‰º•","∂Û¿ÃΩ∫Ω∫≈‰∏Æ"};
+	
+	private AdapterView.OnItemClickListener mItemClickListener = new AdapterView.OnItemClickListener() {
+		@Override
+		public void onItemClick(AdapterView<?> parent, View v, int position,
+				long id) {
+			String name = (String) parent.getItemAtPosition(position);
+
+			if (name.equals("±Ëπ‰≥™∂Û(∫¿∏Ì¡°)")) {
+				Intent intent = new Intent(SuperKorean.this, Korean_1.class);
+				startActivity(intent);
+			}
+			else if(name.equals("24Ω√π‰º•")) {
+				Intent intent = new Intent(SuperKorean.this, Korean_2.class);
+				startActivity(intent);
+			}
+			else if(name.equals("∂Û¿ÃΩ∫Ω∫≈‰∏Æ")) {
+				Intent intent = new Intent(SuperKorean.this, Korean_3.class);
+				startActivity(intent);
+			}
+		};
+	};
+	protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.superkorean);
+        
+        
+        ListView list = (ListView) findViewById(R.id.NameListOfKorean); // ∏ÆΩ∫∆Æ∫‰
+
+		ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+				getApplicationContext(), R.layout.listviewlayout, Names);
+		list.setAdapter(arrayAdapter);// æÓ¥≈ÕøÕ ∏ÆΩ∫∆Æ∫‰ ø¨∞·!
+		list.setOnItemClickListener(mItemClickListener);// æÓ¥≈Õø° ≈¨∏Ø∏ÆΩ∫≥  ≈ı¿‘
+	}
+}
