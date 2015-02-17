@@ -32,57 +32,57 @@ public class Chicken_1 extends Activity {
 			}
 		});
 		// get the listview
-				expListView = (ExpandableListView) findViewById(R.id.lvExp);
+		expListView = (ExpandableListView) findViewById(R.id.lvExp);
 
-				// preparing list data
-				prepareListData();
+		// preparing list data
+		prepareListData();
 
-				listAdapter = new ExpandableListAdapter(this, listDataHeader,
-						listDataChild);
+		listAdapter = new ExpandableListAdapter(this, listDataHeader,
+				listDataChild);
 
-				// setting list adapter
-				expListView.setAdapter(listAdapter);
-		
+		// setting list adapter
+		expListView.setAdapter(listAdapter);
+
 	}
+
 	private void prepareListData() {
 		listDataHeader = new ArrayList<String>();
 		listDataChild = new HashMap<String, List<String>>();
 
 		// Adding child data
-		listDataHeader.add("면류");
-		listDataHeader.add("요리");
-		listDataHeader.add("술");
+		listDataHeader.add("치킨");
+		listDataHeader.add("순살 치킨");
+		listDataHeader.add("강정 및 기타");
 
 		// Adding child data
 		List<String> top250 = new ArrayList<String>();
-		top250.add("짜장면1");
-		top250.add("짜장면2");
-		top250.add("짜장면3");
-		top250.add("짜장면4");
-		top250.add("짜장면5");
-		top250.add("짜장면6");
-		top250.add("짜장면7");
+
+		top250.add("양념 치킨 15,000원");
+		top250.add("바삭클 치킨 15,000원");
+		top250.add("후라이드+마늘 치킨 15,000원");
+		top250.add("매운양념 치킨 16,000원");
+		top250.add("뿌링클 치킨 17,000원");
+		top250.add("프리미엄 텐더 요레요레 치킨 17,000원");
+		top250.add("뿌링클핫 치킨 18,000원");
+		top250.add("간장골드 1마리 18,000원");
+		top250.add("별에서 온 코스 치킨 18,000원");
+		top250.add("해바라기 후라이드 치킨 19,000원");
 
 		List<String> nowShowing = new ArrayList<String>();
-		nowShowing.add("탕수육");
-		nowShowing.add("깐풍기");
-		nowShowing.add("탕수육2");
-		nowShowing.add("탕수육3");
-		nowShowing.add("탕수육4");
-		nowShowing.add("탕수육5");
+
+		nowShowing.add("우리쌀 순살 치킨 17,000원");
+		nowShowing.add("순살후라이드+간장 치킨 18,000원");
+		nowShowing.add("순살 파닭 치킨 18,500원");
 
 		List<String> comingSoon = new ArrayList<String>();
-		comingSoon.add("소주");
-		comingSoon.add("맥주");
-		comingSoon.add("고량주");
-		comingSoon.add("으컁컁");
-		comingSoon.add("겅백");
+
+		comingSoon.add("허브스모크(5개) 16,000원");
+		comingSoon.add("치킨 강정 17,000원");
+		comingSoon.add("루팡치킨/날개 18,000원");
 
 		listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
 		listDataChild.put(listDataHeader.get(1), nowShowing);
 		listDataChild.put(listDataHeader.get(2), comingSoon);
 	}
-
-	
 
 }

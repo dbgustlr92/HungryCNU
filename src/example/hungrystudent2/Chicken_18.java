@@ -1,28 +1,81 @@
 package example.hungrystudent2;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ExpandableListView;
 import android.widget.ImageButton;
 
-public class Chicken_18 extends Activity{
-	
-	protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.chicken_18);
-        ImageButton a = (ImageButton)findViewById(R.id.call_chicken18);
+public class Chicken_18 extends Activity {
 
-        a.setOnClickListener(new ImageButton.OnClickListener(){
+	ExpandableListAdapter listAdapter;
+	ExpandableListView expListView;
+	List<String> listDataHeader;
+	HashMap<String, List<String>> listDataChild;
+
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.chicken_18);
+		ImageButton a = (ImageButton) findViewById(R.id.call_chicken18);
+
+		a.setOnClickListener(new ImageButton.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent("android.intent.action.CALL",Uri.parse("tel:042-861-4479")));
-				
+				startActivity(new Intent("android.intent.action.CALL", Uri
+						.parse("tel:042-861-4479")));
+
 			}
-        	
-        });
+
+		});
+		// get the listview
+		expListView = (ExpandableListView) findViewById(R.id.lvExp);
+
+		// preparing list data
+		prepareListData();
+
+		listAdapter = new ExpandableListAdapter(this, listDataHeader,
+				listDataChild);
+
+		// setting list adapter
+		expListView.setAdapter(listAdapter);
+	}
+
+	private void prepareListData() {
+		listDataHeader = new ArrayList<String>();
+		listDataChild = new HashMap<String, List<String>>();
+
+		// Adding child data
+		listDataHeader.add("Ä¡Å²");
+
+		// Adding child data
+		List<String> top250 = new ArrayList<String>();
+		
+		top250.add("¿¾³¯Åë´ß  14,000¿ø");
+		top250.add("ÈÄ¶óÀÌµå(¸¶ÀÏµå+ÇÖ) 15,000¿ø");
+		top250.add("¾ç³äÄ¡Å² 16,000¿ø");
+		top250.add("¾ç³ä¹Ý/ÈÄ¶óÀÌµå¹Ý 16,000¿ø");
+		top250.add("ÈÄ´ß(¸Å¿î¸À/¼øÇÑ¸À) 16,000¿ø");
+		top250.add("À®ºÀ 17,000¿ø");
+		top250.add("¼îÅ·ÇÖ¾ç³äÄ¡Å²/¼ø»ì 17,000¿ø");
+		top250.add("¿À¸®¿£Å»ÆÄ´ß/°ñµå¸µ¾çÆÄ´ß 17,000¿ø");
+		top250.add("´ß´Ù¸®/´Ù¸®¹Ý+³¯°³¹Ý/´ß³¯°³ 17,000¿ø");
+		top250.add("³×³×¸¶´ÃÄ¡Å²/½º³ëÀ®(Ä¡Áî/¾ßÃ¤) 17,000¿ø");
+		top250.add("³×³×¼ø»ì´ß°­Á¤ 18,000¿ø");
+		top250.add("½º³ëÀ®¹Ý+¾ç³ä¹Ý 18,000¿ø");
+		top250.add("½º³ëÀ®¹Ý¹Ý(¾ßÃ¤+Ä¡Áî) 18,000¿ø");
+		top250.add("ÈÄ´ßÀ®ºÀ(¸Å¿î¸À/¼øÇÑ¸À) 18,000¿ø");
+		top250.add("½º³ëÀ®¹Ý+¼îÅ·ÇÖ¹Ý 19,000¿ø");
+		top250.add("³×³×ÈæÀÓÀÚÄ¡Å² 20,000¿ø");
+
+		listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
+
 	}
 
 }
