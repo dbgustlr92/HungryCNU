@@ -18,5 +18,6 @@
     <string name="title_activity_japan_4">Japan_4</string>
     <string name="title_activity_japan_5">Japan_5</string>
     <string name="title_activity_snack_2">Snack_2</string>
+    <string name="title_activity_loading">Loading</string>
 
 </resources>
