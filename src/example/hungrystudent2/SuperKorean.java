@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class SuperKorean extends Activity{
 	private String[] Names = { // ÇÇÀÚÁı ÀÌ¸§ ³ÖÀ¸¸é µÊ
-			"±è¹ä³ª¶ó(ºÀ¸íÁ¡)","24½Ã¹ä¼¥","¶óÀÌ½º½ºÅä¸®"};
+			"±è¹ä³ª¶ó(ºÀ¸íÁ¡)","24½Ã¹ä¼¥","¶óÀÌ½º½ºÅä¸®","µµ±úºñ±è¹ä"};
 	
 	private AdapterView.OnItemClickListener mItemClickListener = new AdapterView.OnItemClickListener() {
 		@Override
@@ -28,6 +28,10 @@ public class SuperKorean extends Activity{
 			}
 			else if(name.equals("¶óÀÌ½º½ºÅä¸®")) {
 				Intent intent = new Intent(SuperKorean.this, Korean_3.class);
+				startActivity(intent);
+			}
+			else if(name.equals("µµ±úºñ±è¹ä")) {
+				Intent intent = new Intent(SuperKorean.this, Korean_4.class);
 				startActivity(intent);
 			}
 		};

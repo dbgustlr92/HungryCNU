@@ -13,7 +13,7 @@ public class SuperChicken extends Activity {
 	private String[] Names = { // 피자집 이름 넣으면 됨
 	"BHC치킨", "페리카나", "미스터파닭", "돈치킨", "소풍가는닭", "상상치킨", "강정이기가막혀", "디디치킨",
 			"티바두마리치킨", "치코파닭", "강호동치킨", "굽네치킨", "훌랄라치킨", "BBQ치킨", "에꿍이치킨",
-			"호식이두마리치킨", "대학생치킨", "네네치킨" };
+			"호식이두마리치킨", "대학생치킨", "네네치킨" ,"교원파닭"};
 
 	private AdapterView.OnItemClickListener mItemClickListener = new AdapterView.OnItemClickListener() {
 		@Override
@@ -74,6 +74,9 @@ public class SuperChicken extends Activity {
 				startActivity(intent);
 			} else if (name.equals("네네치킨")) {
 				Intent intent = new Intent(SuperChicken.this, Chicken_18.class);
+				startActivity(intent);
+			}else if (name.equals("교원파닭")) {
+				Intent intent = new Intent(SuperChicken.this, Chicken_19.class);
 				startActivity(intent);
 			}
 		};

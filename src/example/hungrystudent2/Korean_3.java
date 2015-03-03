@@ -24,7 +24,7 @@ public class Korean_3 extends Activity{
 
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent("android.intent.action.CALL",Uri.parse("tel:010-4915-9211")));
+				startActivity(new Intent("android.intent.action.CALL",Uri.parse("tel:042-824-1789")));
 				
 			}
         	

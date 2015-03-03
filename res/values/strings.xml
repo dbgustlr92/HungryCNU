@@ -19,5 +19,8 @@
     <string name="title_activity_japan_5">Japan_5</string>
     <string name="title_activity_snack_2">Snack_2</string>
     <string name="title_activity_loading">Loading</string>
+    <string name="title_activity_chicken_19">Chicken_19</string>
+    <string name="title_activity_korean_4">Korean_4</string>
+    <string name="title_activity_question">QuestionActivity</string>
 
 </resources>

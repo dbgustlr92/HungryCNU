@@ -16,6 +16,7 @@ public class Loading extends Activity {
 			public void handleMessage(Message msg){
 				Intent intent = new Intent(getApplicationContext(),MainActivity.class);
 				startActivity(intent);
+				finish();
 			}
 		};
 		handler.sendEmptyMessageDelayed(0, 3000);

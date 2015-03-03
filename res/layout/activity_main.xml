@@ -77,6 +77,14 @@
                 android:background="@drawable/btn_pigfeet"
                 android:padding="0sp" >
             </ImageButton>
+            
+            <ImageButton 
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_question"
+                android:padding="0sp">
+            </ImageButton>
         </LinearLayout>
     </ScrollView>
 

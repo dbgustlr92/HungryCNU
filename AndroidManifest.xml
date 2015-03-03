@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="example.hungrystudent2"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -16,19 +16,18 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="Loading"
-            android:label="@string/app_name">
+            android:name=".Loading"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
+        <activity
             android:name=".MainActivity"
-            android:label="MainActivity">
+            android:label="MainActivity" >
         </activity>
-        
         <activity
             android:name=".SuperPizza"
             android:label="SuperPizza" >
@@ -245,9 +244,18 @@
             android:name=".Snack_2"
             android:label="@string/title_activity_snack_2" >
         </activity>
+        <activity
+            android:name=".Chicken_19"
+            android:label="@string/title_activity_chicken_19" >
+        </activity>
+        <activity
+            android:name=".Korean_4"
+            android:label="@string/title_activity_korean_4" >
+        </activity>
+        <activity
+            android:name=".QuestionActivity"
+            android:label="@string/title_activity_question" >
+        </activity>
     </application>
 
 </manifest>
-
-
-
