@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class SuperChina extends Activity{
 	private String[] Names = { // 피자집 이름 넣으면 됨
-			"하오치","심심원","청해루","띵호와","함가네","샹하이","왕금성","신짜오짜장","왕비성" };
+			"하오치","심심원","청해루","띵호와","함가네","샹하이","황궁쟁반짜장","신짜오짜오","왕비성" };
 	
 	private AdapterView.OnItemClickListener mItemClickListener = new AdapterView.OnItemClickListener() {
 		@Override
@@ -42,11 +42,11 @@ public class SuperChina extends Activity{
 				Intent intent = new Intent(SuperChina.this, China_6.class);
 				startActivity(intent);
 			}
-			else if(name.equals("왕금성")) {
+			else if(name.equals("황궁쟁반짜장")) {
 				Intent intent = new Intent(SuperChina.this, China_7.class);
 				startActivity(intent);
 			}
-			else if(name.equals("신짜오짜장")) {
+			else if(name.equals("신짜오짜오")) {
 				Intent intent = new Intent(SuperChina.this, China_8.class);
 				startActivity(intent);
 			}
