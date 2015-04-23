@@ -93,6 +93,5 @@ public class SuperChicken extends Activity {
 				getApplicationContext(), R.layout.listviewlayout, Names);
 		list.setAdapter(arrayAdapter);// 어댑터와 리스트뷰 연결!
 		list.setOnItemClickListener(mItemClickListener);// 어댑터에 클릭리스너 투입
-
 	}
 }

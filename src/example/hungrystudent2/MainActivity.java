@@ -38,6 +38,9 @@ public class MainActivity extends Activity {
 		
 		ImageButton b9 = (ImageButton) findViewById(R.id.button9);
 		b9.setEnabled(true);
+		
+		ImageButton b10 = (ImageButton) findViewById(R.id.button10);
+		b10.setEnabled(true);
 
 		b1.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
@@ -90,6 +93,13 @@ public class MainActivity extends Activity {
 		b9.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				Intent intent = new Intent(MainActivity.this, QuestionActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		b10.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, DeveloperActivity.class);
 				startActivity(intent);
 			}
 		});

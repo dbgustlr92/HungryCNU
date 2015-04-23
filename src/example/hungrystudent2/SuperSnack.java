@@ -9,8 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class SuperSnack extends Activity{
-	private String[] Names = { // ÇÇÀÚÁý ÀÌ¸§ ³ÖÀ¸¸é µÊ
-			"½Å¶±(Ãæ³²´ëÁ¡)","µ¿´ë¹®¿±±â¶±ººÀÌ"};
+	private String[] Names = { 
+			"½Å¶±(Ãæ³²´ëÁ¡)","µ¿´ë¹®¿±±â¶±ººÀÌ","½Å°¡³×¸Å¿î¶±ººÀÌ"};
 	
 	private AdapterView.OnItemClickListener mItemClickListener = new AdapterView.OnItemClickListener() {
 		@Override
@@ -24,6 +24,10 @@ public class SuperSnack extends Activity{
 			}
 			else if(name.equals("µ¿´ë¹®¿±±â¶±ººÀÌ")) {
 				Intent intent = new Intent(SuperSnack.this, Snack_2.class);
+				startActivity(intent);
+			}
+			else if(name.equals("½Å°¡³×¸Å¿î¶±ººÀÌ")) {
+				Intent intent = new Intent(SuperSnack.this, Snack_3.class);
 				startActivity(intent);
 			}
 		};

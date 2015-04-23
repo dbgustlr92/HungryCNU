@@ -22,5 +22,7 @@
     <string name="title_activity_chicken_19">Chicken_19</string>
     <string name="title_activity_korean_4">Korean_4</string>
     <string name="title_activity_question">QuestionActivity</string>
+    <string name="title_activity_snack_3">Snack_3</string>
+    <string name="title_activity_developer">DeveloperActivity</string>
 
 </resources>
