@@ -8,7 +8,7 @@
         android:id="@+id/title_korean"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/title_korean" />
+        android:src="@drawable/title_korean" />
 
     <ListView
         android:id="@+id/NameListOfKorean"

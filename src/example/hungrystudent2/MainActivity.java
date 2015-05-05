@@ -12,34 +12,34 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		ImageButton b1 = (ImageButton) findViewById(R.id.button1);
+		ImageButton b1 = (ImageButton) findViewById(R.id.btn_pizza);
 		b1.setEnabled(true);
 
-		ImageButton b2 = (ImageButton) findViewById(R.id.button2);
+		ImageButton b2 = (ImageButton) findViewById(R.id.btn_chicken);
 		b2.setEnabled(true);
 
-		ImageButton b3 = (ImageButton) findViewById(R.id.button3);
+		ImageButton b3 = (ImageButton) findViewById(R.id.btn_korean);
 		b3.setEnabled(true);
 
-		ImageButton b4 = (ImageButton) findViewById(R.id.button4);
+		ImageButton b4 = (ImageButton) findViewById(R.id.btn_chinese);
 		b4.setEnabled(true);
 
-		ImageButton b5 = (ImageButton) findViewById(R.id.button5);
+		ImageButton b5 = (ImageButton) findViewById(R.id.btn_japanese);
 		b5.setEnabled(true);
 
-		ImageButton b6 = (ImageButton) findViewById(R.id.button6);
+		ImageButton b6 = (ImageButton) findViewById(R.id.btn_snack);
 		b6.setEnabled(true);
 
-		ImageButton b7 = (ImageButton) findViewById(R.id.button7);
+		ImageButton b7 = (ImageButton) findViewById(R.id.btn_fastfood);
 		b7.setEnabled(true);
 
-		ImageButton b8 = (ImageButton) findViewById(R.id.button8);
+		ImageButton b8 = (ImageButton) findViewById(R.id.btn_pigfeet);
 		b8.setEnabled(true);
 		
-		ImageButton b9 = (ImageButton) findViewById(R.id.button9);
+		ImageButton b9 = (ImageButton) findViewById(R.id.btn_question);
 		b9.setEnabled(true);
 		
-		ImageButton b10 = (ImageButton) findViewById(R.id.button10);
+		ImageButton b10 = (ImageButton) findViewById(R.id.btn_developer);
 		b10.setEnabled(true);
 
 		b1.setOnClickListener(new OnClickListener() {
@@ -56,31 +56,31 @@ public class MainActivity extends Activity {
 		});
 		b3.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this, SuperChina.class);
+				Intent intent = new Intent(MainActivity.this, SuperKorean.class);
 				startActivity(intent);
 			}
 		});
 		b4.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this, SuperKorean.class);
+				Intent intent = new Intent(MainActivity.this, SuperChina.class);
 				startActivity(intent);
 			}
 		});
 		b5.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this, SuperFastFood.class);
+				Intent intent = new Intent(MainActivity.this, SuperJapan.class);
 				startActivity(intent);
 			}
 		});
 		b6.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this, SuperJapan.class);
+				Intent intent = new Intent(MainActivity.this, SuperSnack.class);
 				startActivity(intent);
 			}
 		});
 		b7.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this, SuperSnack.class);
+				Intent intent = new Intent(MainActivity.this, SuperFastFood.class);
 				startActivity(intent);
 			}
 		});

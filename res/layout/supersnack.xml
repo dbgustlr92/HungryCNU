@@ -8,7 +8,7 @@
         android:id="@+id/title_snack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/title_snack" />
+        android:src="@drawable/title_snack" />
 
     <ListView
         android:id="@+id/NameListOfSnack"
