@@ -3,4 +3,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/push_korean4" /><!-- 눌린 후  버튼 -->
 	<item android:drawable="@drawable/korean4" /> <!-- 눌리기전 버튼 -->
 </selector>
-<!-- From: file:/Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/res/drawable-hdpi/btn_korean4.xml -->
+<!-- From: file:/Users/macgongmon/Documents/HungryCNU/app/src/main/res/drawable-hdpi/btn_korean4.xml -->
