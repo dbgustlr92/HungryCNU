@@ -1,0 +1,421 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:2:1-269:12
+	package
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:11:22-66
+application
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:13:5-267:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:15:9-38
+	android:theme
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:17:9-40
+activity#example.hungrystudent2.Loading
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:19:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:24:27-74
+activity#example.hungrystudent2.MainActivity
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:27:9-30:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:29:13-41
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:28:13-41
+activity#example.hungrystudent2.SuperPizza
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:31:9-34:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:33:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:32:13-39
+activity#example.hungrystudent2.SuperChicken
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:35:9-38:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:37:13-41
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:36:13-41
+activity#example.hungrystudent2.SuperChina
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:41:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:40:13-39
+activity#example.hungrystudent2.SuperKorean
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:45:13-40
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:44:13-40
+activity#example.hungrystudent2.SuperFastFood
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:47:9-50:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:49:13-42
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:48:13-42
+activity#example.hungrystudent2.SuperJapan
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:51:9-54:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:53:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:52:13-39
+activity#example.hungrystudent2.SuperSnack
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:55:9-58:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:57:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:56:13-39
+activity#example.hungrystudent2.SuperPigFeet
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:59:9-62:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:61:13-41
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:60:13-41
+activity#example.hungrystudent2.Pizza1_pizzamyungga
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:63:9-66:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:65:13-48
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:64:13-48
+activity#example.hungrystudent2.Pizza_2
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:67:9-70:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:69:13-36
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:68:13-36
+activity#example.hungrystudent2.Pizza_3
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:71:9-74:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:72:13-36
+activity#example.hungrystudent2.Chicken_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:75:9-78:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:77:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:76:13-38
+activity#example.hungrystudent2.Chicken_2
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:79:9-82:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:81:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:80:13-38
+activity#example.hungrystudent2.Chicken_3
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:83:9-86:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:85:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:84:13-38
+activity#example.hungrystudent2.Chicken_4
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:87:9-90:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:89:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:88:13-38
+activity#example.hungrystudent2.Chicken_5
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:91:9-94:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:93:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:92:13-38
+activity#example.hungrystudent2.Chicken_6
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:95:9-98:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:97:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:96:13-38
+activity#example.hungrystudent2.Chicken_7
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:99:9-102:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:101:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:100:13-38
+activity#example.hungrystudent2.Chicken_8
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:103:9-106:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:105:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:104:13-38
+activity#example.hungrystudent2.Chicken_9
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:107:9-110:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:109:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:108:13-38
+activity#example.hungrystudent2.Chicken_10
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:111:9-114:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:113:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:112:13-39
+activity#example.hungrystudent2.Chicken_11
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:115:9-118:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:117:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:116:13-39
+activity#example.hungrystudent2.Chicken_12
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:119:9-122:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:121:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:120:13-39
+activity#example.hungrystudent2.Chicken_13
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:123:9-126:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:125:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:124:13-39
+activity#example.hungrystudent2.Chicken_14
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:127:9-130:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:129:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:128:13-39
+activity#example.hungrystudent2.Chicken_15
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:131:9-134:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:133:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:132:13-39
+activity#example.hungrystudent2.Chicken_16
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:135:9-138:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:137:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:136:13-39
+activity#example.hungrystudent2.Chicken_17
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:139:9-142:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:141:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:140:13-39
+activity#example.hungrystudent2.Chicken_18
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:143:9-146:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:145:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:144:13-39
+activity#example.hungrystudent2.China_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:147:9-150:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:149:13-36
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:148:13-36
+activity#example.hungrystudent2.China_2
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:151:9-154:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:153:13-36
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:152:13-36
+activity#example.hungrystudent2.China_3
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:155:9-158:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:157:13-36
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:156:13-36
+activity#example.hungrystudent2.Korean_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:159:9-162:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:161:13-37
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:160:13-37
+activity#example.hungrystudent2.Korean_2
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:163:9-166:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:165:13-37
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:164:13-37
+activity#example.hungrystudent2.Korean_3
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:167:9-170:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:169:13-37
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:168:13-37
+activity#example.hungrystudent2.Fastfood_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:171:9-174:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:173:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:172:13-39
+activity#example.hungrystudent2.Fastfood_2
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:175:9-178:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:177:13-39
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:176:13-39
+activity#example.hungrystudent2.Japan_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:179:9-182:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:181:13-36
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:180:13-36
+activity#example.hungrystudent2.Snack_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:183:9-186:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:185:13-36
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:184:13-36
+activity#example.hungrystudent2.Pigfeet_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:187:9-190:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:189:13-38
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:188:13-38
+activity#example.hungrystudent2.Pizza_1
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:191:9-194:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:193:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:192:13-36
+activity#example.hungrystudent2.Pizza_4
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:195:9-198:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:197:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:196:13-36
+activity#example.hungrystudent2.Pizza_5
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:199:9-202:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:201:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:200:13-36
+activity#example.hungrystudent2.China_4
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:203:9-206:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:205:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:204:13-36
+activity#example.hungrystudent2.China_5
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:207:9-210:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:209:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:208:13-36
+activity#example.hungrystudent2.China_6
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:211:9-214:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:213:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:212:13-36
+activity#example.hungrystudent2.China_7
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:215:9-218:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:217:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:216:13-36
+activity#example.hungrystudent2.China_8
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:219:9-222:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:221:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:220:13-36
+activity#example.hungrystudent2.China_9
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:223:9-226:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:225:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:224:13-36
+activity#example.hungrystudent2.Japan_2
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:227:9-230:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:229:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:228:13-36
+activity#example.hungrystudent2.Japan_3
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:231:9-234:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:233:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:232:13-36
+activity#example.hungrystudent2.Japan_4
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:235:9-238:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:237:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:236:13-36
+activity#example.hungrystudent2.Japan_5
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:239:9-242:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:241:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:240:13-36
+activity#example.hungrystudent2.Snack_2
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:243:9-246:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:245:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:244:13-36
+activity#example.hungrystudent2.Chicken_19
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:247:9-250:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:249:13-62
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:248:13-39
+activity#example.hungrystudent2.Korean_4
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:251:9-254:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:253:13-60
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:252:13-37
+activity#example.hungrystudent2.QuestionActivity
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:255:9-258:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:257:13-60
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:256:13-45
+activity#example.hungrystudent2.DeveloperActivity
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:259:9-262:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:261:13-60
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:260:13-46
+activity#example.hungrystudent2.Snack_3
+ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:263:9-266:20
+	android:label
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:265:13-59
+	android:name
+		ADDED from /Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/AndroidManifest.xml:264:13-36

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.hungrystudent2"
+    android:versionCode="10"
+    android:versionName="2.5" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="example.hungrystudent2.Loading"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.MainActivity"
+            android:label="MainActivity" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperPizza"
+            android:label="SuperPizza" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperChicken"
+            android:label="SuperChicken" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperChina"
+            android:label="SuperChina" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperKorean"
+            android:label="SuperKorean" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperFastFood"
+            android:label="SuperFastFood" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperJapan"
+            android:label="SuperJapan" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperSnack"
+            android:label="SuperSnack" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.SuperPigFeet"
+            android:label="SuperPigFeet" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Pizza1_pizzamyungga"
+            android:label="Pizza1_pizzamyungga" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Pizza_2"
+            android:label="Pizza_2" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Pizza_3"
+            android:label="Pizza_3" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_1"
+            android:label="Chicken_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_2"
+            android:label="Chicken_2" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_3"
+            android:label="Chicken_3" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_4"
+            android:label="Chicken_4" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_5"
+            android:label="Chicken_5" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_6"
+            android:label="Chicken_6" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_7"
+            android:label="Chicken_7" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_8"
+            android:label="Chicken_8" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_9"
+            android:label="Chicken_9" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_10"
+            android:label="Chicken_10" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_11"
+            android:label="Chicken_11" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_12"
+            android:label="Chicken_12" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_13"
+            android:label="Chicken_13" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_14"
+            android:label="Chicken_14" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_15"
+            android:label="Chicken_15" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_16"
+            android:label="Chicken_16" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_17"
+            android:label="Chicken_17" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_18"
+            android:label="Chicken_18" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_1"
+            android:label="China_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_2"
+            android:label="China_2" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_3"
+            android:label="China_3" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Korean_1"
+            android:label="Korean_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Korean_2"
+            android:label="Korean_2" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Korean_3"
+            android:label="Korean_3" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Fastfood_1"
+            android:label="Fastfood_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Fastfood_2"
+            android:label="Fastfood_2" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Japan_1"
+            android:label="Japan_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Snack_1"
+            android:label="Snack_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Pigfeet_1"
+            android:label="Pigfeet_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Pizza_1"
+            android:label="@string/title_activity_pizza_1" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Pizza_4"
+            android:label="@string/title_activity_pizza_4" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Pizza_5"
+            android:label="@string/title_activity_pizza_5" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_4"
+            android:label="@string/title_activity_china_4" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_5"
+            android:label="@string/title_activity_china_5" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_6"
+            android:label="@string/title_activity_china_6" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_7"
+            android:label="@string/title_activity_china_7" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_8"
+            android:label="@string/title_activity_china_8" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.China_9"
+            android:label="@string/title_activity_china_9" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Japan_2"
+            android:label="@string/title_activity_japan_2" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Japan_3"
+            android:label="@string/title_activity_japan_3" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Japan_4"
+            android:label="@string/title_activity_japan_4" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Japan_5"
+            android:label="@string/title_activity_japan_5" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Snack_2"
+            android:label="@string/title_activity_snack_2" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Chicken_19"
+            android:label="@string/title_activity_chicken_19" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Korean_4"
+            android:label="@string/title_activity_korean_4" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.QuestionActivity"
+            android:label="@string/title_activity_question" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.DeveloperActivity"
+            android:label="@string/title_activity_question" >
+        </activity>
+        <activity
+            android:name="example.hungrystudent2.Snack_3"
+            android:label="@string/title_activity_snack_3" >
+        </activity>
+    </application>
+
+</manifest>

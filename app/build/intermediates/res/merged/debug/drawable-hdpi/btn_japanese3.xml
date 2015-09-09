@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" android:drawable="@drawable/push_japanese3" /><!-- 눌린 후  버튼 -->
+	<item android:drawable="@drawable/japanese3" /> <!-- 눌리기전 버튼 -->
+
+</selector>
+<!-- From: file:/Users/macgongmon/AndroidStudioProjects/HungryCNU-master1/app/src/main/res/drawable-hdpi/btn_japanese3.xml -->
