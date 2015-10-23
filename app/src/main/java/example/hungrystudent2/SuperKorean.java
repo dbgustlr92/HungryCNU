@@ -9,8 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class SuperKorean extends Activity{
-	private String[] Names = { // ÇÇÀÚÁı ÀÌ¸§ ³ÖÀ¸¸é µÊ
-			"±è¹ä³ª¶ó(ºÀ¸íÁ¡)","24½Ã¹ä¼¥","¶óÀÌ½º½ºÅä¸®","µµ±úºñ±è¹ä"};
+	private String[] Names = {
+			"ê¹€ë°¥ë‚˜ë¼(ë´‰ëª…ì )","24ì‹œ ë°¥ìƒµ","ë„ê¹¨ë¹„ ê¹€ë°¥","NMap Test"};
 	
 	private AdapterView.OnItemClickListener mItemClickListener = new AdapterView.OnItemClickListener() {
 		@Override
@@ -18,20 +18,20 @@ public class SuperKorean extends Activity{
 				long id) {
 			String name = (String) parent.getItemAtPosition(position);
 
-			if (name.equals("±è¹ä³ª¶ó(ºÀ¸íÁ¡)")) {
+			if (name.equals("ê¹€ë°¥ë‚˜ë¼(ë´‰ëª…ì )")) {
 				Intent intent = new Intent(SuperKorean.this, Korean_1.class);
 				startActivity(intent);
 			}
-			else if(name.equals("24½Ã¹ä¼¥")) {
+			else if(name.equals("24ì‹œ ë°¥ìƒµ")) {
 				Intent intent = new Intent(SuperKorean.this, Korean_2.class);
 				startActivity(intent);
 			}
-			else if(name.equals("¶óÀÌ½º½ºÅä¸®")) {
+			else if(name.equals("ë„ê¹¨ë¹„ ê¹€ë°¥")) {
 				Intent intent = new Intent(SuperKorean.this, Korean_3.class);
 				startActivity(intent);
 			}
-			else if(name.equals("µµ±úºñ±è¹ä")) {
-				Intent intent = new Intent(SuperKorean.this, Korean_4.class);
+			else if(name.equals("NMap Test")) {
+				Intent intent = new Intent(SuperKorean.this, MapTestActivity.class);
 				startActivity(intent);
 			}
 		};
@@ -41,11 +41,11 @@ public class SuperKorean extends Activity{
         setContentView(R.layout.superkorean);
         
         
-        ListView list = (ListView) findViewById(R.id.NameListOfKorean); // ¸®½ºÆ®ºä
+        ListView list = (ListView) findViewById(R.id.NameListOfKorean);
 
 		ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
 				getApplicationContext(), R.layout.listviewlayout, Names);
-		list.setAdapter(arrayAdapter);// ¾î´ğÅÍ¿Í ¸®½ºÆ®ºä ¿¬°á!
-		list.setOnItemClickListener(mItemClickListener);// ¾î´ğÅÍ¿¡ Å¬¸¯¸®½º³Ê ÅõÀÔ
+		list.setAdapter(arrayAdapter);
+		list.setOnItemClickListener(mItemClickListener);
 	}
 }

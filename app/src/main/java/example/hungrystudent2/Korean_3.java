@@ -9,27 +9,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
 
-public class Korean_3 extends Activity{
+public class Korean_3 extends Activity {	//ë„ê¹¨ë¹„ ê¹€ë°¥
 	ExpandableListAdapter listAdapter;
 	ExpandableListView expListView;
 	List<String> listDataHeader;
 	HashMap<String, List<String>> listDataChild;
 
 	protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.korean_3);
-        ImageButton a = (ImageButton)findViewById(R.id.call_korean3);
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.korean_4);
+		ImageButton a = (ImageButton) findViewById(R.id.call_korean4);
 
-        a.setOnClickListener(new ImageButton.OnClickListener(){
+		a.setOnClickListener(new ImageButton.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent("android.intent.action.CALL",Uri.parse("tel:042-824-1789")));
-				
+				startActivity(new Intent("android.intent.action.CALL", Uri
+						.parse("tel:042-823-5479")));
+
 			}
-        	
-        });
-// get the listview
+
+		});
+		// get the listview
 		expListView = (ExpandableListView) findViewById(R.id.lvExp);
 
 		// preparing list data
@@ -41,79 +42,89 @@ public class Korean_3 extends Activity{
 		// setting list adapter
 		expListView.setAdapter(listAdapter);
 	}
+
 	private void prepareListData() {
 		listDataHeader = new ArrayList<String>();
 		listDataChild = new HashMap<String, List<String>>();
 
 		// Adding child data
-		listDataHeader.add("ººÀ½¹ä");
-		listDataHeader.add("µ¤¹ä");
-		listDataHeader.add("¸é·ù");
-		listDataHeader.add("½ºÆó¼È");
-		listDataHeader.add("°èÀı¸Ş´º");
-		listDataHeader.add("À½·á¼ö");
+		listDataHeader.add("ê¹€ë°¥ë¥˜");
+		listDataHeader.add("ì°Œê°œë¥˜");
+		listDataHeader.add("ë¶„ì‹ë¥˜");
+		listDataHeader.add("ì‹ì‚¬ë¥˜");
+		listDataHeader.add("ëŒì†¥ë¥˜");
+		listDataHeader.add("ëˆê¹ŒìŠ¤");
 
-	
-		
-		
 		// Adding child data
-		List<String> menu1 = new ArrayList<String>(); // ººÀ½¹ä
-		menu1.add("[¶óÁö»çÀÌÁî 1000¿ø Ãß°¡]");
-		menu1.add("±èÄ¡ººÀ½¹ä   5,500¿ø");
-		menu1.add("»çÃµÇØ¹°ººÀ½¹ä   7,000¿ø");
-		menu1.add("µ¥¸®¾ß³¢ººÀ½¹ä   6,000¿ø");
-		menu1.add("ÇØ¹°±èÄ¡ººÀ½¹ä   6,500¿ø");
-		menu1.add("ºñÇÁ±èÄ¡ººÀ½¹ä   6,500¿ø");
-		menu1.add("°¥¸¯ººÀ½¹ä  7,000¿ø");
-		menu1.add("ÇÖºñÇÁººÀ½¹ä   7,000¿ø");
-		menu1.add("¿À¹«ºñÇÁ   8,500¿ø");
-		menu1.add("ÇØ¹°¿À¹«¶óÀÌ½º   8,000¿ø");
-		menu1.add("¼öÁ¦Ä¡Å²µ·±î½º   7,000¿ø");
-		menu1.add("¼öÁ¦µî½Éµ·±î½º   6,500¿ø");
-		menu1.add("¼öÁ¦°í±¸¸¶µ·±î½º   7,000¿ø");
-		
-		
-		
-		List<String> menu2 = new ArrayList<String>(); // µ¤¹ä
-		menu2.add("¸ù°ñ¸®¾Èµ¿   6,000¿ø");
-		menu2.add("°¡Ã÷µ¿   5,500¿ø");
-		menu2.add("±èÄ¡°¡Ã÷µ¿   6,000¿ø");
-		menu2.add("¿¡ºñµ¿   7,500¿ø");
-		menu2.add("±Ôµ¿   6,000¿ø");
-		menu2.add("±èÄ¡±Ôµ¿   6,500¿ø");
-		menu2.add("Ä¡Å²°¡¶óÀÌ¾Æ°Ôµ¿   7,500¿ø");
-		menu2.add("Æ®¸®ÇÃµ¿   9,000¿ø");
-	
+		List<String> menu1 = new ArrayList<String>(); // ê¹€ë°¥ë¥˜
+		menu1.add("ì›°ë¹™ê¹€ë°¥ 1,500ì›");
+		menu1.add("ì›ì¡°ê¹€ë°¥ 2,000ì›");
+		menu1.add("ì°¸ì¹˜ê¹€ë°¥ 2,500ì›");
+		menu1.add("ì¹˜ì¦ˆê¹€ë°¥ 2,500ì›");
+		menu1.add("ì°¸ì¹˜ê¹€ì¹˜ê¹€ë°¥ 3,000ì›");
 
-		
-		
-		List<String> menu3 = new ArrayList<String>();	//¸é·ù
-		menu3.add("º£Æ®³²½Ò±¹¼ö   6,000¿ø");
-		menu3.add("ÇØ¹°ÅÁ¸é   6,500¿ø");
-		menu3.add("¾óÅ«¼Ò°í±âÅÁ¸é   6,500¿ø");
-		menu3.add("Å¥½´ÅÁ¸é(¼øÇÑ¸À)   6,500¿ø");
-		menu3.add("Å¥½´Â«»Í(¸Å¿î¸À)   7,000¿ø");
-		menu3.add("»çÃµÇØ¹°ººÀ½¸é   7,000¿ø");
-		menu3.add("ºñÇÁ¸ù°ñ¸®¾È   7,500¿ø");
-		
-		
-		
-		List<String> menu4 = new ArrayList<String>();	//½ºÆä¼È
-		menu4.add("°¥¸¯¶±°¥ºñ½ºÅ×ÀÌÅ©  8,500¿ø");
-		
-		List<String> menu5 = new ArrayList<String>();	//°èÀı¸Ş´º
-		menu5.add("µ·°íÃ÷¶ó¸à   7,000¿ø");
-		menu5.add("À°°³Àå   6,000¿ø");
+		List<String> menu2 = new ArrayList<String>(); // ì°Œê°œë¥˜
+		menu2.add("ê¹€ì¹˜ì°Œê°œ 4,000ì›");
+		menu2.add("ëœì¥ì°Œê°œ 4,000ì›");
+		menu2.add("ìˆœë‘ë¶€ì°Œê°œ 4,000ì›");
+		menu2.add("ì°¸ì¹˜ì°Œê°œ 4,500ì›");
+		menu2.add("í–„ì°Œê°œ 4,500ì›");
 
+		List<String> menu3 = new ArrayList<String>(); // ë¶„ì‹ë¥˜
+		menu3.add("ë¼ë©´ 2,500ì›");
+		menu3.add("ë¼ë©´(ë°¥) 3,000ì›");
+		menu3.add("ë–¡ë¼ë©´ 3,000ì›");
+		menu3.add("ì¹˜ì¦ˆë¼ë©´ 3,000ì›");
+		menu3.add("ë§Œë‘ë¼ë©´ 3,000ì›");
+		menu3.add("ìˆœë‘ë¶€ë¼ë©´ 3,500ì›");
+		menu3.add("ì§¬ë½•ë¼ë©´ 3,5000ì›");
+		menu3.add("ë¼ë³¶ì´ 3,5000ì›");
+		menu3.add("ë–¡ë³¶ì´ 3,500ì›");
+		menu3.add("ì¹˜ì¦ˆë¼ë³¶ì´ 4,000ì›");
+		menu3.add("ì°¸ì¹˜ë¼ë³¶ì´ 4,000ì›");
+		menu3.add("ë–¡ë§Œë‘ 4,000ì›");
+		menu3.add("ë–¡êµ­ 4,000ì›");
+		menu3.add("ì«„ë©´ 4,000ì›");
+		menu3.add("ë¬¼ëƒ‰ë©´ 4,000ì›");
+		menu3.add("ë¹„ë¹”ëƒ‰ë©´ 4,000ì›");
 
-		List<String> menu6 = new ArrayList<String>();	//À½·á¼ö
-		menu6.add("»çÀÌ´Ù   1,500¿ø");
-		menu6.add("Äİ¶ó   1,500¿ø");
-		menu6.add("À£Ä¡½º   2,000¿ø");
-		
+		List<String> menu4 = new ArrayList<String>(); // ì‹ì‚¬ë¥˜
+		menu4.add("ë„ê¹¨ë¹„ë„ì‹œë½ 4,000ì›");
+		menu4.add("ì˜¤ë¯€ë¼ì´ìŠ¤ 4,000ì›");
+		menu4.add("ì˜¤ì§•ì–´ë®ë°¥ 4,000ì›");
+		menu4.add("ì œìœ¡ë®ë°¥ 4,000ì›");
+		menu4.add("í–„ì•¼ì±„ë³¶ìŒë°¥ 4,000ì›");
+		menu4.add("ê¹€ì¹˜ë³¶ìŒë°¥ 4,000ì›");
+		menu4.add("ì•¼ì±„ë¹„ë¹”ë°¥ 4,000ì›");
+		menu4.add("ì°¸ì¹˜ë¹„ë¹”ë°¥ 4,000ì›");
+		menu4.add("ì°¸ì¹˜ê¹€ì¹˜ë®ë°¥ 4,500ì›");
+		menu4.add("ì¹˜í‚¨ë®ë°¥ 4,500ì›");
+		menu4.add("ì˜¤ë¶ˆë®ë°¥ 4,500ì›");
+		menu4.add("ì°¸ì¹˜ë³¶ìŒë°¥ 4,500ì›");
+		menu4.add("ì°¸ì¹˜ê¹€ì¹˜ë³¶ìŒë°¥ 4,500ì›");
+		menu4.add("í•´ë¬¼ë³¶ìŒë°¥ 4,500ì›");
+		menu4.add("ê¼¬ê¼¬ë³¶ìŒë°¥ 4,500ì›");
+		menu4.add("ì‡ ê³ ê¸°ë®ë°¥ 5,000ì›");
 
+		List<String> menu5 = new ArrayList<String>(); //ëŒì†¥ë¥˜
+		menu5.add("ìœ¡ê°œì¥ 5,000ì›");
+		menu5.add("ëŒì†¥ë¹„ë¹”ë°¥ 5,000ì›");
+		menu5.add("ì˜¤ë¶ˆëŒì†¥ 5,000ì›");
+		menu5.add("ì¹˜í‚¨ëŒì†¥ 5,000ì›");
+		menu5.add("ë‚™ì§€ëŒì†¥ 5,000ì›");
+		menu5.add("ì•Œë°¥ 5,000ì›");
+		menu5.add("ê¹€ì¹˜ì•Œë°¥ 5,000ì›");
+		menu5.add("ì¹˜ì¦ˆì•Œë°¥ 5,000ì›");
+		menu5.add("ì°¸ì¹˜ì•Œë°¥ 5,500ì›");
+		menu5.add("ëšë°°ê¸°ë¶ˆê³ ê¸° 5,500ì›");
 
-		
+		List<String> menu6 = new ArrayList<String>(); // ëˆê¹ŒìŠ¤
+		menu6.add("ìˆœì‚´ëˆê¹ŒìŠ¤ 4,500ì›");
+		menu6.add("ì¹˜ì¦ˆëˆê¹ŒìŠ¤ 5,000ì›");
+		menu6.add("ê³ êµ¬ë§ˆëˆê¹ŒìŠ¤ 5,000ì›");
+		menu6.add("í”¼ìëˆê¹ŒìŠ¤ 5,000ì›");
+		menu6.add("ë‹¨í˜¸ë°•ëˆê¹ŒìŠ¤ 5,000ì›");
+
 		listDataChild.put(listDataHeader.get(0), menu1); // Header, Child data
 		listDataChild.put(listDataHeader.get(1), menu2);
 		listDataChild.put(listDataHeader.get(2), menu3);
@@ -121,5 +132,5 @@ public class Korean_3 extends Activity{
 		listDataChild.put(listDataHeader.get(4), menu5);
 		listDataChild.put(listDataHeader.get(5), menu6);
 
-}
+	}
 }

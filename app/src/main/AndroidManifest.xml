@@ -5,10 +5,14 @@
     android:versionName="2.5" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="9"
         android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -60,10 +64,7 @@
             android:name=".SuperPigFeet"
             android:label="SuperPigFeet" >
         </activity>
-        <activity
-            android:name=".Pizza1_pizzamyungga"
-            android:label="Pizza1_pizzamyungga" >
-        </activity>
+
         <activity
             android:name=".Pizza_2"
             android:label="Pizza_2" >
@@ -165,10 +166,6 @@
             android:label="Korean_2" >
         </activity>
         <activity
-            android:name=".Korean_3"
-            android:label="Korean_3" >
-        </activity>
-        <activity
             android:name=".Fastfood_1"
             android:label="Fastfood_1" >
         </activity>
@@ -249,7 +246,7 @@
             android:label="@string/title_activity_chicken_19" >
         </activity>
         <activity
-            android:name=".Korean_4"
+            android:name=".Korean_3"
             android:label="@string/title_activity_korean_4" >
         </activity>
         <activity
@@ -263,6 +260,10 @@
         <activity
             android:name=".Snack_3"
             android:label="@string/title_activity_snack_3" >
+        </activity>
+        <activity
+            android:name=".MapTestActivity"
+            android:label="@string/title_activity_map_test" >
         </activity>
     </application>
 

@@ -178,6 +178,7 @@
     <string name="title_activity_japan_5">Japan_5</string>
     <string name="title_activity_korean_4">Korean_4</string>
     <string name="title_activity_loading">Loading</string>
+    <string name="title_activity_map_test">MapTestActivity</string>
     <string name="title_activity_pizza_1">Pizza_1</string>
     <string name="title_activity_pizza_4">Pizza_4</string>
     <string name="title_activity_pizza_5">Pizza_5</string>
@@ -950,6 +951,16 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
+    <!-- From: file:/Users/macgongmon/Documents/HungryCNU/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MenuAnimation">
+        <item name="android:windowEnterAnimation">
+            @anim/in</item>
+        <item name="android:windowExitAnimation">
+            @anim/out</item>
+    </style>
+    <!-- From: file:/Users/macgongmon/Documents/HungryCNU/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
         <item name="buttonBarStyle">@android:style/ButtonBar</item>

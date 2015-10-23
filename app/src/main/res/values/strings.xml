@@ -24,5 +24,6 @@
     <string name="title_activity_question">QuestionActivity</string>
     <string name="title_activity_snack_3">Snack_3</string>
     <string name="title_activity_developer">DeveloperActivity</string>
+    <string name="title_activity_map_test">MapTestActivity</string>
 
 </resources>
